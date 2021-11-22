@@ -12,8 +12,19 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 ```
-
+Use
+```
+# Install versions
 nvm install 16.13.0
-nvm use 14.18.1
+
+# List versions
 nvm list
+
+# Use on version
+nvm use 14.18.1
+
+# Use defatul on start system
+nvm use 14 --default
+
+```
 
