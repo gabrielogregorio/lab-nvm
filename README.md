@@ -24,7 +24,8 @@ nvm list
 nvm use 14.18.1
 
 # Use defatul on start system
-nvm use 14 --default
+# nvm use 14 --default // DEPRECATED???
 
+nvm use 16
+nvm alias default 16
 ```
-
